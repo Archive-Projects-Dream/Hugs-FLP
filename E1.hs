@@ -12,7 +12,7 @@ solveFun x y = x**(1-sqrt y)/(3*y-tan x)
     «Если разница между максимальным и минимальным элементами списка [1,2,3,4,5] нечетна, 
 	то третий элемент этого списка не равен минимальному».
 -}
-compareFun l = odd (maximum l - minimum l) == (l !! 3 /= minimum l)
+compareFun l = odd (maximum l - minimum l) == (l !! 2 /= minimum l)
 -- $ compareFun [1,2,3,4,5]
 -- > False
 
